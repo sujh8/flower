@@ -1,0 +1,48 @@
+.searchbox-container {
+    display: flex;
+    align-items: center;
+    background-color: #fa90f8; /* Light background color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding around the input and button */
+  }
+  
+  .input-container {
+    position: relative;
+    flex: 1; /* Take up available space */
+  }
+  
+  .typeahead {
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 40px 8px 10px; /* Add padding to the right for the icon */
+    font-size: 14px;
+    width: 77%; /* Full width */
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px; /* Adjust to fit your design */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fd16f9; /* Icon color */
+    cursor: pointer;
+  }
+  
+  .search-button {
+    display: flex;
+    align-items: center;
+    background-color: #fd16f9;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    height: 29px;
+  }
+  
+  .search-button:hover {
+    background-color: #f973f7; /* Darker blue on hover */
+  }
+  

@@ -1,0 +1,59 @@
+/* تصغير حجم البطاقة أكثر */
+.product-card {
+  background-color: #ffebcd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 8px; /* تقليل الحواف الداخلية */
+  text-align: center;
+  width: 140px; /* تقليل العرض */
+  margin: 10px; /* تقليل المسافة بين البطاقات */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+/* تصغير الصورة */
+.product-card img {
+  max-width: 100%;
+  height: 80px; /* تقليل ارتفاع الصورة */
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+/* تصغير حجم العناوين والنصوص */
+.product-card h3 {
+  font-size: 0.85rem; /* تصغير العنوان */
+  margin-bottom: 6px; /* تقليل المسافة السفلية */
+}
+
+.product-card p {
+  font-size: 0.75rem; /* تصغير النص */
+  color: #555;
+  margin-bottom: 6px; /* تقليل المسافة السفلية */
+}
+
+/* تخصيص سعر المنتج */
+.product-card .price {
+  font-weight: bold;
+  color: #f44336;
+  margin-bottom: 6px;
+  font-size: 0.85rem; /* تصغير حجم السعر */
+}
+
+/* تصغير حجم الزر */
+.product-card button {
+  background-color: #008cba;
+  color: white;
+  padding: 5px 8px; /* تقليل حجم الزر */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.75rem; /* تقليل حجم النص داخل الزر */
+}
+
+.product-card button:hover {
+  background-color: #005f75;
+}

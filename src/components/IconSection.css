@@ -1,0 +1,91 @@
+/* src/components/IconSection.css */
+
+/* Main container for the icon section */
+.icon-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    padding: 30px;
+    gap: 20px; /* Space between cards */
+    background: #f0f0f0; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Individual icon card styling */
+.icon-card {
+    text-align: center;
+    cursor: pointer;
+    width: 180px; /* Slightly larger width */
+    padding: 20px;
+    background: #fff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+/* Image styling within the icon card */
+.icon-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain; /* Ensure images fit within their container */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Hover effect for icon cards */
+.icon-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Styling for the popup overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Slightly darker overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-family: initial;
+    color: #8d1882;
+}
+
+/* Styling for the popup content */
+.popup-content {
+    background:#8cd58f;
+    padding: 30px;
+    border-radius: 12px; /* More rounded corners */
+    text-align: center;
+    width: 90%;
+    max-width: 600px; /* Slightly wider max-width */
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Close button styling */
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: #e74c3c; /* Red background for close button */
+    color: #fff; /* White text */
+    border-radius: 50%; /* Circular button */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s; /* Smooth background color transition */
+}
+
+/* Change button color on hover */
+.close-button:hover {
+    background: #c0392b; /* Darker red on hover */
+}

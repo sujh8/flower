@@ -1,0 +1,80 @@
+/* تصغير حجم نافذة التفاصيل */
+.product-details {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 300px; /* تصغير العرض */
+  background-color: #ffebcd;
+  padding: 15px; /* تقليل الحواف الداخلية */
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  background: #ffebcd;
+}
+
+/* تصغير حجم الصورة */
+.product-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px; /* تقليل المسافة أسفل الصورة */
+}
+
+/* تصغير حجم العناوين والنص */
+.product-details h3 {
+  font-size: 1.2rem; /* تصغير حجم العنوان */
+  margin-bottom: 10px; /* تقليل المسافة أسفل العنوان */
+  color: #333;
+}
+
+.product-details p {
+  font-size: 0.9rem; /* تصغير النص */
+  color: #666;
+  margin-bottom: 15px; /* تقليل المسافة أسفل النص */
+}
+
+/* تصغير العنوان الفرعي */
+.product-details h4 {
+  font-size: 1rem; /* تصغير حجم العنوان الفرعي */
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* تقليل حجم الزر */
+.product-details button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 12px; /* تصغير حجم الزر */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem; /* تقليل حجم النص داخل الزر */
+}
+
+.product-details button:hover {
+  background-color: #d32f2f;
+}
+
+/* تصغير الزر الإغلاق */
+.product-details .close-button {
+  position: absolute;
+  top: 8px; /* تقليل المسافة العلوية */
+  right: 8px; /* تقليل المسافة الجانبية */
+  background: none;
+  border: none;
+  font-size: 1.2rem; /* تصغير حجم زر الإغلاق */
+  color: #ff5722;
+  cursor: pointer;
+}
+
+/* تصغير حجم القائمة المنسدلة */
+.product-details select {
+  width: 100%;
+  padding: 6px; /* تصغير حجم القائمة المنسدلة */
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px; /* تقليل المسافة السفلية */
+}

@@ -1,0 +1,126 @@
+.roses-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .roses-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .roses-header h1 {
+    font-size: 2em;
+    color: #f48fb1; /* Customize as needed */
+  }
+  
+  .roses-header p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .roses-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .roses-gallery-item {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .roses-gallery-item img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+  .roses-gallery-item h2 {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  .roses-gallery-item p {
+    font-size: small;
+    color: #777;
+  }
+  
+  .rose-price {
+    font-size: 1.2em;
+    color: #e57373; /* Customize as needed */
+    margin: 10px 0;
+  }
+  
+  .add-to-cart-button {
+    background-color: #4caf50; /* Customize as needed */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #d32f2f; /* Darker shade on hover */
+  }
+  
+  .roses-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .roses-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .roses-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .roses-info li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .roses-footer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .roses-footer p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .roses-contact-link {
+    font-size: 1.2em;
+    color: #e57373; /* Customize as needed */
+    text-decoration: none;
+    border-bottom: 1px solid #e57373;
+  }
+  
+  .roses-contact-link:hover {
+    text-decoration: underline;
+  }
+  Header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #f48fb1;
+    font-family: cursive;
+}
+p {
+    font-family: system-ui;
+}

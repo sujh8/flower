@@ -1,0 +1,39 @@
+/* src/components/pages/HomePage.css */
+.home-page {
+    text-align: center;
+  }
+  
+  .marquee-container {
+    background: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .marquee-text {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .icon-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .icon-card {
+    text-align: center;
+  }
+  
+  .icon-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  

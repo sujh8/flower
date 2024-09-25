@@ -1,0 +1,122 @@
+/* Product Details Modal Styling */
+.product-details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+  background-color: #ffebcd;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.product-details img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.product-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.product-details p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+  
+    font-family: monospace;
+}
+.product-card {
+  width: 256px;
+}
+
+.product-details h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.product-details label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.product-details select {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.product-details button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.product-details button:hover {
+  background-color: #d32f2f;
+}
+
+/* Close Button */
+.product-details .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #777;
+  cursor: pointer;
+}
+
+.product-details .close-button:hover {
+  color: #333;
+}
+img {
+  size: 20px;
+  height: 169px;
+}
+.product-list {
+  display: -webkit-box;
+}
+h3 {
+  font-size: medium;
+  margin: 17px;
+}
+button {
+  background-color: #ffffffff;
+  border: outset;
+  border-radius: 13px;
+  height: 43px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap; /* للسماح بالتفاف العناصر عند زيادة العدد */
+  justify-content: space-around; /* توسيط المنتجات أفقياً */
+  margin: 57px;
+  gap: 30px; /* لإضافة مساحة بين البطاقات */
+}
+.product-card {
+  /* border: solid; */
+  /* border-color: darkseagreen; */
+  background: rgb(250 177 177 / 39%);
+  height: 365px;
+  padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 15px;
+}
